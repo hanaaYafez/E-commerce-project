@@ -1,0 +1,689 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FinalProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FinalProject.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css one\\site.css",
+      "PackagePath": "staticwebassets\\css one\\site.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\css\\animate.min.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\default-skin.css",
+      "PackagePath": "staticwebassets\\css\\default-skin.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\icomoon.css",
+      "PackagePath": "staticwebassets\\css\\icomoon.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\jquery.mCustomScrollbar.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.mCustomScrollbar.min.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\meanmenu.css",
+      "PackagePath": "staticwebassets\\css\\meanmenu.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\fonts\\Berlin Sans FB Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Berlin Sans FB Bold.ttf"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\banner-bg.png",
+      "PackagePath": "staticwebassets\\images\\banner-bg.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\call-icon.png",
+      "PackagePath": "staticwebassets\\images\\call-icon.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\computer-img.png",
+      "PackagePath": "staticwebassets\\images\\computer-img.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\dress-shirt-img.png",
+      "PackagePath": "staticwebassets\\images\\dress-shirt-img.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\flag-france.png",
+      "PackagePath": "staticwebassets\\images\\flag-france.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\flag-uk.png",
+      "PackagePath": "staticwebassets\\images\\flag-uk.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\footer-logo.png",
+      "PackagePath": "staticwebassets\\images\\footer-logo.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\jhumka-img.png",
+      "PackagePath": "staticwebassets\\images\\jhumka-img.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\kangan-img.png",
+      "PackagePath": "staticwebassets\\images\\kangan-img.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\laptop-img.png",
+      "PackagePath": "staticwebassets\\images\\laptop-img.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\mail-icon.png",
+      "PackagePath": "staticwebassets\\images\\mail-icon.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\map-icon.png",
+      "PackagePath": "staticwebassets\\images\\map-icon.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\mobile-img.png",
+      "PackagePath": "staticwebassets\\images\\mobile-img.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\neklesh-img.png",
+      "PackagePath": "staticwebassets\\images\\neklesh-img.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\images\\search-icon.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\toggle-icon.png",
+      "PackagePath": "staticwebassets\\images\\toggle-icon.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\tshirt-img.png",
+      "PackagePath": "staticwebassets\\images\\tshirt-img.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\user-icon.png",
+      "PackagePath": "staticwebassets\\images\\user-icon.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\images\\women-clothes-img.png",
+      "PackagePath": "staticwebassets\\images\\women-clothes-img.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\js one\\site.js",
+      "PackagePath": "staticwebassets\\js one\\site.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\js\\jquery-3.0.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.0.0.min.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\js\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\js\\modernizer.js",
+      "PackagePath": "staticwebassets\\js\\modernizer.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\js\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugin.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\js\\slider-setting.js",
+      "PackagePath": "staticwebassets\\js\\slider-setting.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib.zip",
+      "PackagePath": "staticwebassets\\lib.zip"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240506013616456.jpg",
+      "PackagePath": "staticwebassets\\products\\20240506013616456.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240506015450753.jpg",
+      "PackagePath": "staticwebassets\\products\\20240506015450753.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240506015635493.jpg",
+      "PackagePath": "staticwebassets\\products\\20240506015635493.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240506020912856.jpg",
+      "PackagePath": "staticwebassets\\products\\20240506020912856.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240506021628127.jpg",
+      "PackagePath": "staticwebassets\\products\\20240506021628127.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240506021649001.jpg",
+      "PackagePath": "staticwebassets\\products\\20240506021649001.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240506023741041.jpg",
+      "PackagePath": "staticwebassets\\products\\20240506023741041.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240506025703315.jpg",
+      "PackagePath": "staticwebassets\\products\\20240506025703315.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240506032119334.jpg",
+      "PackagePath": "staticwebassets\\products\\20240506032119334.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240506130822308.jpg",
+      "PackagePath": "staticwebassets\\products\\20240506130822308.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240506131949143.jpg",
+      "PackagePath": "staticwebassets\\products\\20240506131949143.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240519003239624.jpg",
+      "PackagePath": "staticwebassets\\products\\20240519003239624.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240519004541619.jpg",
+      "PackagePath": "staticwebassets\\products\\20240519004541619.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240519004616079.jpg",
+      "PackagePath": "staticwebassets\\products\\20240519004616079.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520002428854.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520002428854.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520002505573.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520002505573.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520002537038.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520002537038.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520002722965.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520002722965.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520002808931.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520002808931.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520002917104.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520002917104.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520002938913.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520002938913.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520003007448.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520003007448.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520003322506.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520003322506.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520003357001.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520003357001.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520004033798.png",
+      "PackagePath": "staticwebassets\\products\\20240520004033798.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520004101410.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520004101410.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520004131436.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520004131436.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520004211847.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520004211847.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520004236347.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520004236347.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520004300291.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520004300291.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520004811170.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520004811170.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520005023064.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520005023064.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520005108743.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520005108743.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520005203489.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520005203489.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520005719035.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520005719035.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520005920388.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520005920388.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520010055178.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520010055178.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240520010129020.jpg",
+      "PackagePath": "staticwebassets\\products\\20240520010129020.jpg"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240522124154221.png",
+      "PackagePath": "staticwebassets\\products\\20240522124154221.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240523081856947.png",
+      "PackagePath": "staticwebassets\\products\\20240523081856947.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\20240523125743802.png",
+      "PackagePath": "staticwebassets\\products\\20240523125743802.png"
+    },
+    {
+      "Id": "D:\\hanaa do\\ject(V2)\\ject(V2)\\Project(V2)\\FinalProject\\FinalProject\\wwwroot\\products\\ydress.jpg",
+      "PackagePath": "staticwebassets\\products\\ydress.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FinalProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FinalProject.props",
+      "PackagePath": "build\\FinalProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FinalProject.props",
+      "PackagePath": "buildMultiTargeting\\FinalProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FinalProject.props",
+      "PackagePath": "buildTransitive\\FinalProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

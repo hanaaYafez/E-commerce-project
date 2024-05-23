@@ -1,0 +1,51 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Cart";
+    decimal totalPrice = 0;
+}
+@model IEnumerable<FinalProject.Models.CartItem>
+
+<h1>Cart</h1>
+@if (Model != null && Model.Any())
+{
+    <form method="post" asp-action="Checkout" asp-controller="Product">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    totalPrice += item.producprice * item.quintity; // Calculate the total price
+                    <tr>
+                        <td>@item.ProductID</td>
+                        <td>@item.productname</td>
+                        <td>@item.producprice</td>
+                        <td>@item.quintity</td>
+                        <td>
+                            <a asp-action="Removecart" asp-controller="Product" asp-route-id="@item.ProductID" class="btn btn-primary">Remove</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="text-center">
+            <h3><strong>Total Price: @totalPrice</strong></h3>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-success">Checkout</button>
+        </div>
+    </form>
+}
+else
+{
+    <h2>Empty Cart</h2>
+}

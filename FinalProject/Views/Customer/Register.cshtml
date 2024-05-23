@@ -1,0 +1,61 @@
+﻿@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+@model RegistrationViewModel
+
+<div class="container mt-5" style="background-color:wheat; margin-top:0px;">
+    <div class="row justify-content-center" style=" padding-top:0px;">
+        <div class="col-md-6">
+            <h1 class="text-left" style="color:navy; padding-top:15px;"><b><i>Register Form</i></b></h1>
+            <form asp-controller="Customer" asp-action="Register" method="post" style="background-color:wheat;padding-top:0px;">
+                <div class="form-group" >
+                    <label for="name" style="color:navy;">Name</label>
+                    <input type="text" value="@Model.Name" class="form-control" id="name" name="Name" placeholder="Enter your name">
+                    <span asp-validation-for="Name" class="text-danger"></span> <!-- Validation Error Message -->
+                </div>
+
+                <div class="form-group">
+                    <label for="phone" style="color:navy;">PhoneNumber</label>
+                    <input type="text" value="@Model.PhoneNumber" class="form-control" id="phone" name="PhoneNumber" placeholder="Enter your Phone Number">
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span> <!-- Validation Error Message -->
+                </div>
+
+                <div class="form-group">
+                    <label for="address" style="color:navy;">Address</label>
+                    <input type="text" value="@Model.Address" class="form-control" id="address" name="Address" placeholder="Enter your Address">
+                    <span asp-validation-for="Address" class="text-danger"></span> <!-- Validation Error Message -->
+                </div>
+
+                <div class="form-group">
+                    <label for="email" style="color:navy;">Email</label>
+                    <input type="email" value="@Model.Email" class="form-control" id="email" name="Email" placeholder="Enter your email">
+                    <span asp-validation-for="Email" class="text-danger"></span> <!-- Validation Error Message -->
+                </div>
+
+                <div class="form-group">
+                    <label for="pass" style="color:navy;">Password</label>
+                    <input type="password" value="@Model.Password" class="form-control" id="pass" name="Password" placeholder="Enter your Password">
+                    <span asp-validation-for="Password" class="text-danger"></span> <!-- Validation Error Message -->
+                </div>
+
+                <div class="form-group">
+                    <label for="confpass" style="color:navy;">Confirmation Password</label>
+                    <input type="password" value="@Model.ConfirmationPassword" class="form-control" id="confpass" name="ConfirmationPassword" placeholder="Confirm your Password">
+                    <span asp-validation-for="ConfirmationPassword" class="text-danger"></span> <!-- Validation Error Message -->
+                </div>
+
+                <div class="form-group">
+                    <label for="cust_pic" style="color:navy;">Upload Photo</label>
+                    <input type="file" value="@Model.cust_Pic" class="form-control-file" id="cust_pic" name="cust_Pic">
+                    <span asp-validation-for="cust_Pic" class="text-danger"></span> <!-- Validation Error Message -->
+                </div>
+
+                <br />
+                <div class="form-group">
+                    <input type="submit" value="Register Now" class="btn btn-primary" />
+                </div>
+                <a class="nav-link" asp-area="" asp-controller="Customer" asp-action="Login" style="color:navy;">Already have an account?</a>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+﻿@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+@model User
+
+<div class="container mt-5" style="background-color:wheat; width:100%; ">
+    <div class="row justify-content-center" style="width:100%; ">
+        <div class="col-md-6" style="width:100%; ">
+            <h1 class="text-left" style="color:navy; padding-top:15px;"><b><i>Log In Form</i></b></h1>
+            <form asp-controller="Customer" asp-action="Login" method="post" style="margin-top:0px;">
+                <div asp-validation-summary="All" class="text-danger"></div> <!-- Validation Summary -->
+
+                <div class="form-group">
+                    <label for="email" style="color:navy">Email</label>
+                    <input type="email" class="form-control" id="email" name="Email" placeholder="Enter your email">
+                </div>
+
+                <div class="form-group">
+                    <label for="pass" style="color:navy">Password</label>
+                    <input type="password" class="form-control" id="pass" name="Password" placeholder="Enter your Password">
+                </div>
+
+                <br />
+                <div class="form-group">
+                    <input type="submit" value="Log In" class="btn btn-primary" />
+                </div>
+                <a class="nav-link" asp-area="" asp-controller="Customer" asp-action="Register" style="color:navy">Do not have an account?</a>
+            </form>
+        </div>
+    </div>
+</div>

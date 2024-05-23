@@ -1,0 +1,263 @@
+﻿@model IEnumerable<FinalProject.Models.Product>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<html>
+<head>
+   <style>
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap; /* Optional: Allows items to wrap to the next line */
+        }
+
+        .flex-item {
+            flex: 1 1 30%; /* Adjust the width as needed */
+            margin: 10px; /* Optional: Adds space between items */
+        }
+
+   </style>
+    <title>ChicBoutique</title>
+</head>
+    <body style="background-color:wheat">
+    <div class="container" style="display:block;">
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger" style="margin-top:100px; margin-bottom:40px;">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+        <form asp-action="Search" asp-controller="Home" method="post" style="margin-top:30px;">
+            <div class="form-group">               
+                <input type="text" class="form-control" id="searchTerm" name="searchTerm" placeholder="Search for a product..." />               
+            </div>
+            <button type="submit" class="btn btn-primary" style="background-color:navy">Search</button>
+        </form>
+    </div>
+    <!-- clothes section start -->
+    <div class="fashion_section" >
+        <div id="main_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <h1 class="fashion_taital" style="color:navy">Clothes Section</h1>
+                        @if (Model != null)
+                        {
+                            <div class="flex-container" style="background-color: #333;">
+                                @foreach (var product in Model )
+                                {
+                                    if(@product.Type=="Clothes"){
+                                    <div class="fashion_section_2 flex-item">
+                                        <div class="box_main">
+                                            <h4 class="shirt_text">@product.Name</h4>
+                                            <p class="price_text">Price:  <span style="color: #262626;">@product.PriceInEGP</span></p>
+                                            <div class="tshirt_img"><img src="/products/@product.Image" width="200%" /></div>
+                                            <p class="price_text">Description: <span style="color: #262626;">@product.Description</span></p>
+                                            <p class="price_text">Category: <span style="color: #262626;">@product.Type</span></p>
+                                            <div class="btn_main">
+                                                    <a asp-action="AddToCart" asp-controller="Product" asp-route-id="@product.ProductID" class="btn btn-primary">Buy Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    }
+                                }
+                            </div>
+                        }
+                        else
+                        {
+                            <p>No data available.</p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+                <i class="fa fa-angle-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        </div>
+    </div>
+    <!-- clothes section end -->
+    <!-- Bags section start -->
+    <div class="fashion_section">
+        <div id="main_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <h1 class="fashion_taital" style="color:navy">Bags Section</h1>
+                        @if (Model != null)
+                        {
+                            <div class="flex-container" style="background-color: #333;">
+                                @foreach (var product in Model)
+                                {
+                                    if (@product.Type == "Bags")
+                                    {
+                                        <div class="fashion_section_2 flex-item">
+                                            <div class="box_main">
+                                            <h4 class="shirt_text">@product.Name</h4>
+                                            <p class="price_text">Price:  <span style="color: #262626;">@product.PriceInEGP</span></p>
+                                                <div class="tshirt_img"><img src="/products/@product.Image" width="80%" /></div>
+                                            <p class="price_text">Description: <span style="color: #262626;">@product.Description</span></p>
+                                            <p class="price_text">Category: <span style="color: #262626;">@product.Type</span></p>
+                                                <div class="btn_main">
+                                                    <a asp-action="AddToCart" asp-controller="Product" asp-route-id="@product.ProductID" class="btn btn-primary">Buy Now</a>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    }
+                                }
+                            </div>
+                        }
+                        else
+                        {
+                            <p>No data available.</p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+        <i class="fa fa-angle-left"></i>
+    </a>
+    <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+        <i class="fa fa-angle-right"></i>
+    </a>
+    </div>
+    </div>
+    <!-- Bags section end -->
+    <!-- boots  section start -->
+    <div class="fashion_section">
+        <div id="main_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <h1 class="fashion_taital" style="color:navy">Shoes & Boots Section</h1>
+                        @if (Model != null)
+                        {
+                            <div class="flex-container" style="background-color: #333;">
+                                @foreach (var product in Model)
+                                {
+                                    if (@product.Type == "Boots")
+                                    {
+                                    <div class="fashion_section_2 flex-item">
+                                        <div class="box_main">
+                                            <h4 class="shirt_text">@product.Name</h4>
+                                            <p class="price_text">Price:  <span style="color: #262626;">@product.PriceInEGP</span></p>
+                                                <div class="tshirt_img"><img src="/products/@product.Image" width="200%" /></div>
+                                            <p class="price_text">Description: <span style="color: #262626;">@product.Description</span></p>
+                                            <p class="price_text">Category: <span style="color: #262626;">@product.Type</span></p>
+                                                <div class="btn_main">
+                                                    <a asp-action="AddToCart" asp-controller="Product" asp-route-id="@product.ProductID" class="btn btn-primary">Buy Now</a>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    }
+                                }
+                            </div>
+                        }
+                        else
+                        {
+                            <p>No data available.</p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+        <i class="fa fa-angle-left"></i>
+    </a>
+    <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+        <i class="fa fa-angle-right"></i>
+    </a>
+    </div>
+    </div>
+    <!-- boots  section end -->
+    <!-- Accessories  section start -->
+    <div class="fashion_section">
+        <div id="main_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <h1 class="fashion_taital" style="color:navy">Accessories Section</h1>
+                        @if (Model != null)
+                        {
+                            <div class="flex-container" style="background-color: #333;">
+                                @foreach (var product in Model)
+                                {
+                                    if (@product.Type == "Accessories")
+                                    {
+                                    <div class="fashion_section_2 flex-item">
+                                        <div class="box_main">
+                                            <h4 class="shirt_text">@product.Name</h4>
+                                            <p class="price_text">Price:  <span style="color: #262626;">@product.PriceInEGP</span></p>
+                                                <div class="tshirt_img"><img src="/products/@product.Image" width="80%" /></div>
+                                            <p class="price_text">Description: <span style="color: #262626;">@product.Description</span></p>
+                                            <p class="price_text">Category: <span style="color: #262626;">@product.Type</span></p>
+                                                <div class="btn_main">
+                                                    <a asp-action="AddToCart" asp-controller="Product" asp-route-id="@product.ProductID" class="btn btn-primary">Buy Now</a>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    }
+                                }
+                            </div>
+                        }
+                        else
+                        {
+                            <p>No data available.</p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+        <i class="fa fa-angle-left"></i>
+    </a>
+    <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+        <i class="fa fa-angle-right"></i>
+    </a>
+    </div>
+    </div>
+    <!-- Accessories  section end -->
+    <!-- footer section start -->
+    <div class="footer_section layout_padding">
+        <div class="container">
+            <div class="footer_logo" style="color:white;" font-size=" 400px;">ChicBoutique</div>
+            <hr style="color:white;"/>         
+            <div class="location_main">Help Line  Number : <a href="#">+1 1800 1200 1200</a></div>
+        </div>
+    </div>
+    <!-- footer section end -->
+    <!-- copyright section start -->
+    <div class="copyright_section">
+        <div class="container">
+            <p class="copyright_text">©  All Rights Reserved</a></p>
+        </div>
+    </div>
+    <!-- copyright section end -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+</html>

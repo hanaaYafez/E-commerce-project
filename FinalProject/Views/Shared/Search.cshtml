@@ -1,0 +1,52 @@
+﻿@model IEnumerable<FinalProject.Models.Product>
+@{
+    ViewData["Title"] = "Search Results";
+}
+
+<html>
+<head>
+    <style>
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .flex-item {
+            flex: 1 1 30%;
+            margin: 10px;
+        }
+    </style>
+    <title>Search Results</title>
+</head>
+<body style="background-color:wheat">
+    <div class="container" style="margin-top:100px;">
+        <h1 style="color:navy">Search Results</h1>
+        @if (Model != null && Model.Any())
+        {
+            <div class="flex-container" style="background-color: #333;">
+                @foreach (var product in Model)
+                {
+                    <div class="fashion_section_2 flex-item">
+                        <div class="box_main">
+                            <h4 class="shirt_text">@product.Name</h4>
+                            <p class="price_text">Price:  <span style="color: #262626;">@product.PriceInEGP</span></p>
+                            <div class="tshirt_img"><img src="/products/@product.Image" width="100" /></div>
+                            <p class="price_text">Description: <span style="color: #262626;">@product.Description</span></p>
+                            <p class="price_text">Category: <span style="color: #262626;">@product.Type</span></p>
+                            <div class="btn_main">
+                                <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                <div class="seemore_bt"><a href="#">See More</a></div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <p>No products found.</p>
+        }
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,136 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    ViewData["Title"] = "_Layout";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Meta Tags -->
+    <title>ChicBoutique</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/responsive.css">
+    <link rel="stylesheet" href="~/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+
+    <!-- Custom Styles for Page Content Centering -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+            .navbar ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+                .navbar ul li {
+                    float: left;
+                }
+
+                    .navbar ul li a {
+                        display: block;
+                        color: white;
+                        text-align: center;
+                        padding: 14px 20px;
+                        text-decoration: none;
+                    }
+
+                        .navbar ul li a:hover {
+                            background-color: #575757;
+                        }
+
+        .content-wrapper {
+            /* display:flex; */
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div style="font-size: 50px;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-feature-settings:c2cs;
+    background-color:wheat;
+    color:navy;
+    margin-bottom:-18px;
+    height:max-content;">
+        <b>Welcome to, ChicBoutique</b>
+        <p style="font-size: 30px; color:navy; padding-bottom:10px;"><i>where style meets sophistication and every click brings you closer to your fashion dreams</i></p>
+    </div>
+    <!-- Header Section -->
+    <div class="banner_bg_main">
+        <div class="container">
+            <div class="header_section_top">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="custom_menu">
+                            <header>
+                                <nav class="navbar">
+                                    <ul>
+                                        <li><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                                        <li><a class="nav-link" asp-area="" asp-controller="Customer" asp-action="customercarthistory">cart</a></li>
+                                        <li><a class="nav-link" asp-area="" asp-controller="Customer" asp-action="Register">Register</a></li>
+                                        @if (HttpContextAccessor.HttpContext.Session.GetInt32("userid") != null)
+                                        {
+
+                                            <li><span style="color: palegreen">Hello, @HttpContextAccessor.HttpContext.Session.GetInt32("userid")!</span></li>
+                                            <li>
+                                                <a class="nav-link" asp-area="" asp-controller="Customer" asp-action="Logout" style="color: white">Log out</a>
+                                            </li>
+                                        }
+                                        else
+                                        {
+                                            <li>
+                                            <a class="nav-link" asp-area="" asp-controller="Customer" asp-action="Login" style="color: white">Log in</a>
+                                            </li>
+                                        }
+                                        
+                                        <li><a style="color: red" class="nav-link" asp-area="" asp-controller="Product" asp-action="Index">Products</a></li>
+                                        <li class="nav-item"><a class="nav-link" style="color: red" asp-area="Identity" asp-page="/Account/Login">Log In AS an Admin</a></li>
+                                    </ul>
+                                </nav>
+                            </header>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Content Wrapper -->
+    <br />
+    <br />
+    <br />
+    <div class="content-wrapper">
+        @RenderBody()
+    </div>
+</body>
+@await RenderSectionAsync("Scripts", required: false)
+</html>

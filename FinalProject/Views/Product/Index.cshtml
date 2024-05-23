@@ -1,0 +1,46 @@
+﻿@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+@model List<FinalProject.Models.Product>
+
+<div class="container" style="background-color:wheat">
+    <div class="row mb-5" style="margin-top:10px;">
+        <div class="col-md-6" style="margin-top:30px;">
+            <h2 class="text-center mb-5" style="color:navy;"><b><i>List Of Products</i></b></h2>
+        </div>
+        <div class="col-md-6 text-md-end" style="margin-top:30px;">
+            <a class="btn btn-primary" asp-controller="Product" asp-action="Create">New Product</a>
+        </div>
+    </div>
+
+    <table class="table" style="border: solid 1px black;">
+        <thead >
+            <tr>
+                <th style="color:black; border: solid 1px black;">ID</th>
+                <th style="color:black; border: solid 1px black;">Name</th>
+                <th style="color:black; border: solid 1px black;">PriceInEGP</th>
+                <th style="color:black; border: solid 1px black;">Description</th>
+                <th style="color:black; border: solid 1px black;">Image</th>
+                <th style="color:black; border: solid 1px black;">Category</th>
+                <th style="color:black; border: solid 1px black;">Action</th>
+            </tr>
+        </thead>
+        <tbody style="border: solid 1px black;">
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td style="color:black; border: solid 1px black;">@product.ProductID</td>
+                    <td style="color:black; border: solid 1px black;">@product.Name</td>
+                    <td style="color:black; border: solid 1px black;">@product.PriceInEGP</td>
+                    <td style="color:black; border: solid 1px black;">@product.Description</td>
+                    <td style="color:black; border: solid 1px black;"><img src="/products/@product.Image" width="100" /></td>
+                    <td style="color:black; border: solid 1px black;">@product.Type</td>
+                    <td style="white-space:nowrap;color:black; border: solid 1px black;">
+                        <a class="btn btn-primary btn-sm" asp-controller="Product" asp-action="Edit" asp-route-id="@product.ProductID">Edit</a>
+                        <a class="btn btn-danger btn-sm" asp-controller="Product" asp-action="Delete" asp-route-id="@product.ProductID" onclick="return confirm('Are you sure?')">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
